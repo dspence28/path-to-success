@@ -81,6 +81,13 @@ h2 {
     font-size: 2em;
     color: #ffffff;
 }
+h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
+ 
 
 header {
     background-color: #6B8FE7;
@@ -99,11 +106,21 @@ header p {
     border-radius: 10%;
 }
 
+#our-services {
+    margin-top: 10px;
+}
+.one-on-one, .group-coaching, .workshops, .online-courses {
+color: #E9BB57;
+font-family: "Inter";
+margin: 15px;
 
+}
 
 .services {
     background-color: #ffffff;
     margin: 80px;
+    border-radius: 20px;
+    padding: 1px
 }
 .services p, h4, img {
     margin: 25px;
@@ -115,6 +132,9 @@ nav li {
     top: auto;
 }
 
+p {
+    padding: 10px;
+}
 #services {
 
 }
@@ -122,6 +142,57 @@ p {
     font-size: 11pt;
 }
 
+#why li {
+    border-radius: 20px;
+    width: 120px;
+    text-align: center;
+    font-weight: bold;
+    padding: 16px;
+    margin: 10px;
+}
+#why {
+    background-color:#D9526F;
+}
+#why h2{
+    padding: 10px;
+}
+#why ul {
+    columns: 2;
+}
+.personalized-approach {
+    background-color: #4CA7C0;
+}
+.proven-results {
+    background-color: #6B8FE7;
+}
+.supportive-environment {
+    background-color: #E9BB57;
+}
+.flexible-options {
+    background-color: #ffffff;
+}
+
+#pricing {
+    background-color: ;
+}
+
+table {
+    border: 3px solid #E9BB57;
+    
+}
+
+th {
+    background-color: #E9BB57;
+}
+td {
+background-color: #ffffff;
+border: 3px solid #E9BB57;
+padding: 2px;
+}
+
+#online-courses, #workshops h3 {
+    color: #E9BB57;
+}
 H1, H2
 Kavoon
 All other text
