@@ -89,7 +89,7 @@ header {
     padding: 24px;
 
 }
-#header p {
+header p {
     background-color: #D9526F;
     text-align: center;
     font-style: italic;
@@ -114,6 +114,7 @@ nav li {
     right: auto;
     top: auto;
 }
+
 #services {
 
 }
