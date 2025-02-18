@@ -88,6 +88,11 @@ h3 {
     padding: 5px;
 }
 
+h4 {
+margin-left: 10px;
+color:#484FB7;
+font-weight: bold;
+}
  
 
 header {
@@ -119,7 +124,7 @@ margin: 15px;
 
 .services {
     background-color: #ffffff;
-    margin: 80px;
+    margin: 20px;
     border-radius: 20px;
     padding: 1px
 }
@@ -127,18 +132,25 @@ margin: 15px;
     margin: 25px;
     font-family: "Inter";
 }
-nav li {
-    position: sticky;
-    right: auto;
-    top: auto;
+nav {
+    position: fixed;
+    right:0;
+    top:0;
+    background-color: #E9BB57;
+    padding: 10px;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+
 }
 
 p {
     padding: 10px;
+    line-height: 1.5em;
 }
-#services {
 
-}
 p {
     font-size: 11pt;
 }
@@ -148,17 +160,21 @@ p {
     width: 120px;
     text-align: center;
     font-weight: bold;
-    padding: 16px;
+    padding: 35px;
     margin: 10px;
 }
 #why {
     background-color:#D9526F;
+    padding: 30px;
 }
 #why h2{
     padding: 10px;
 }
 #why ul {
     columns: 2;
+    padding: 5px;
+    margin: 5px;
+
 }
 .personalized-approach {
     background-color: #4CA7C0;
@@ -180,17 +196,21 @@ p {
 table {
     border: 3px solid #E9BB57;
     padding: 5px;
-    
-    
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
 }
 
 th {
     background-color: #E9BB57;
+    padding: 8px;
 }
 td {
 background-color: #ffffff;
 border: 3px solid #E9BB57;
-padding: 2px;
+padding: 8px;
 }
 
 #online-courses, #workshops h3 {
@@ -201,44 +221,35 @@ padding: 2px;
 aside {
     background-color: #D9526F;
     color: #ffffff;
+    padding-bottom: 15px;
 }
 aside p {
     margin: 15px;
+    padding: 20px;
 }
 
 aside a {
     background-color:#ffffff ;
     color: #1E1E1E;
     filter: drop-shadow(3px 3px);
-    border-radius: 7px;
+    border-radius: 14px;
     padding: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 200px;
+    width: 300px;
     text-align: center;
+
+}
+aside h2 {
+    padding: 10px;
 }
 
 footer {
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
     padding: 20px;
     text-align: center;
+    background-color:#6B8FE7;
+    padding: 20px;
 }
-
-H1, H2
-Kavoon
-All other text
-Inter
-H1
-3em
-NAV H2
-1.5em
-H2
-2em
-H3
-1.5em
-H4
-1.15em
-
-
