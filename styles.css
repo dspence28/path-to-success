@@ -74,6 +74,7 @@ h1 {
     font-family: "Kavoon";
     font-size: 3em;
     color: #ffffff;
+    text-align: center;
 }
 
 h2 {
@@ -172,12 +173,7 @@ p {
 #why h2{
     padding: 10px;
 }
-#why ul {
-    columns: 2;
-    padding: 5px;
-    margin: 5px;
 
-}
 .personalized-approach {
     background-color: #4CA7C0;
 }
@@ -199,20 +195,16 @@ table {
     border: 3px solid #E9BB57;
     padding: 5px;
 }
-.center {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 15px;
-}
+
 
 th {
     background-color: #E9BB57;
     padding: 8px;
 }
 td {
-background-color: #ffffff;
-border: 3px solid #E9BB57;
-padding: 8px;
+    background-color: #ffffff;
+    border: 3px solid #E9BB57;
+    padding: 8px;
 }
 
 #online-courses, #workshops h3 {
@@ -254,4 +246,64 @@ footer {
     text-align: center;
     background-color:#6B8FE7;
     padding: 20px;
+    color: #ffffff;
+    font-size: small;
+}
+footer small, footer a {
+    padding: 10px;
+}
+
+@media screen and (min-width:450px) {
+    #why ul {
+        columns: 2;
+        padding: 5px;
+        margin: 5px;
+}
+    .center {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+}
+}
+
+
+@media screen and (min-width:620px) {
+    #why ul {
+        columns: 4;
+        padding: 5px;
+        margin: 5px;
+}
+    #pricing {
+        columns: 2;
+}
+    #tiles {
+        columns: 2;
+        margin: 10px;
+        overflow: hidden;
+    }
+    aside {
+        columns: 2;
+    }
+}
+@media screen and (min-width:950px) {
+    #tiles {
+        columns: 4;
+        margin: 10px;
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    #tiles {
+        columns: 4;
+        margin: 10px;
+        overflow: hidden;
+
+    }
+    main {
+        margin: 50px;
+    }
+    nav {
+        visibility: visible;
+    }
 }
